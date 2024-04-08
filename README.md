@@ -14,7 +14,7 @@ reagentc /info
  Aquí, el número después de "harddisk" (disco duro) y "partition" (partición) es el índice del disco y la partición en la que está activado WinRE.
 
 
-## Para deshabilitar WinRE
+## Para deshabilitar WinRE, ejecuta:
 ```
 ejecuta reagentc /disable
 ```
