@@ -16,7 +16,7 @@ reagentc /info
 
 ## Para deshabilitar WinRE, ejecuta:
 ```
-ejecuta reagentc /disable
+reagentc /disable
 ```
 ## Reducir particion
 Reduzca la partición del sistema operativo y prepare el disco para una nueva partición de recuperación.
