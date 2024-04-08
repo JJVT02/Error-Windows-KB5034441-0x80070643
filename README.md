@@ -84,7 +84,7 @@ Si el disco es **GPT**, ejecuta
 create partition primary id=de94bba4-06d1-4d40-a16a-bfd50179d6ac
 ```
 seguido del comando 
-````
+```
 gpt attributes =0x8000000000000001
 ```
 
