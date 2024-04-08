@@ -79,9 +79,14 @@ Cree una nueva partición de recuperación.
 En primer lugar, compruebe si el estilo de partición de disco es **GPT** o **MBR.**  Para ello, ejecute list disk y comprueba si hay un carácter de asterisco (*) en la columna "Gpt".  Si hay un carácter de asterisco (*), la unidad es GPT. De lo contrario, la unidad es MBR.
 
 
-Si el disco es **GPT**, ejecuta create partition primary id=de94bba4-06d1-4d40-a16a-bfd50179d6ac 
-seguido del comando gpt attributes =0x8000000000000001
-
+Si el disco es **GPT**, ejecuta 
+```
+create partition primary id=de94bba4-06d1-4d40-a16a-bfd50179d6ac
+```
+seguido del comando 
+````
+gpt attributes =0x8000000000000001
+```
 
 Si el disco es **MBR**, ejecuta 
 
